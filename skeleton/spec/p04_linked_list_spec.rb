@@ -32,6 +32,7 @@ describe LinkedList do
     it "appends links in order" do
       expect(list.first.key).to be(:first)
       expect(list.last.key).to be(:third)
+      puts list.first.key
     end
   end
 
